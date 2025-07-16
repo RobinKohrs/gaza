@@ -1,0 +1,16 @@
+Version: 1.0
+ProjectId: bf03dbff-0b63-4e85-a70d-4e37be02c108
+
+RestoreWorkspace: Default
+SaveWorkspace: Default
+AlwaysSaveHistory: Default
+
+EnableCodeIndexing: Yes
+UseSpacesForTab: Yes
+NumSpacesForTab: 2
+Encoding: UTF-8
+
+RnwWeave: Sweave
+LaTeX: pdfLaTeX
+
+ProjectName: gaza
