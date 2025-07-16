@@ -48,9 +48,6 @@ _freeze/
 .quarto/
 # --- Large Files (Git LFS) ---
 # *.tif
-*.gpkg
-*.shp
-*.parquet
 *.feather
 *.rds
 *.pdf
