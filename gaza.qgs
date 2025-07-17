@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="robin" version="3.40.3-Bratislava" saveUser="robin" projectname="" saveDateTime="2025-07-16T10:31:52">
+<qgis saveUserFull="robin" version="3.40.3-Bratislava" saveUser="robin" projectname="" saveDateTime="2025-07-17T08:06:14">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -38,7 +38,7 @@
     <layer-tree-layer source="?query=select%20distinct%20date_destroyed%0Afrom%20hotosm_pse_buildings_polygons_gaza_destroyed" patch_size="-1,-1" name="virtual_layer" checked="Qt::Checked" legend_split_behavior="0" id="virtual_layer_7cf577a0_f24d_43aa_aeea_3722d184c52b" providerKey="virtual" expanded="1" legend_exp="">
       <customproperties>
         <Option type="Map">
-          <Option name="expandedLegendNodes" type="invalid"/>
+          <Option name="expandedLegendNodes"/>
           <Option name="showFeatureCount" value="true" type="bool"/>
         </Option>
       </customproperties>
@@ -50,7 +50,7 @@
       <layer-tree-layer source="./data_icloud/gaza_cities.gpkg|layername=place|subset=&quot;population&quot; > 100000" patch_size="-1,-1" name="gaza_cities — place" checked="Qt::Checked" legend_split_behavior="0" id="place_58445c39_0da9_4b51_b2f5_93d69fefce16" providerKey="ogr" expanded="1" legend_exp="">
         <customproperties>
           <Option type="Map">
-            <Option name="expandedLegendNodes" type="invalid"/>
+            <Option name="expandedLegendNodes"/>
             <Option name="showFeatureCount" value="true" type="bool"/>
           </Option>
         </customproperties>
@@ -63,7 +63,7 @@
       <layer-tree-layer source="./data_icloud/hotosm_pse_buildings_polygons_gaza_destroyed.gpkg|layername=hotosm_pse_buildings_polygons_gaza_destroyed" patch_size="-1,-1" name="hotosm_pse_buildings_polygons_gaza_destroyed" checked="Qt::Checked" legend_split_behavior="0" id="hotosm_pse_buildings_polygons_gaza_destroyed_0ddffd71_f5cd_4fe0_aaa3_a81fbd9c8959" providerKey="ogr" expanded="1" legend_exp="">
         <customproperties>
           <Option type="Map">
-            <Option name="expandedLegendNodes" type="invalid"/>
+            <Option name="expandedLegendNodes"/>
             <Option name="showFeatureCount" value="true" type="bool"/>
           </Option>
         </customproperties>
@@ -76,7 +76,7 @@
       <layer-tree-layer source="/Users/rk/Library/Mobile Documents/com~apple~CloudDocs/geodata/GAZA/DAMAGE_SCHER_HOEK/maps/gaza_totalDamage_20231012_40m_G.geojson" patch_size="-1,-1" name="gaza_totalDamage_20231012_40m_G" checked="Qt::Checked" legend_split_behavior="0" id="_099a1114_78b1_4248_af8e_152576d0d2b8" providerKey="ogr" expanded="1" legend_exp="">
         <customproperties>
           <Option type="Map">
-            <Option name="expandedLegendNodes" type="invalid"/>
+            <Option name="expandedLegendNodes"/>
             <Option name="showFeatureCount" value="true" type="bool"/>
           </Option>
         </customproperties>
@@ -523,7 +523,7 @@
       <layer-tree-layer source="./data_icloud/COUNTRIES_DISSOLVED_DE.gpkg|layername=COUNTRIES_DISSOLVED_DE" patch_size="-1,-1" name="COUNTRIES_DISSOLVED_DE" checked="Qt::Checked" legend_split_behavior="0" id="COUNTRIES_DISSOLVED_DE_ca93373a_dc1e_4800_a271_93d022f9c456" providerKey="ogr" expanded="0" legend_exp="">
         <customproperties>
           <Option type="Map">
-            <Option name="expandedLegendNodes" type="invalid"/>
+            <Option name="expandedLegendNodes"/>
             <Option name="showFeatureCount" value="true" type="bool"/>
           </Option>
         </customproperties>
@@ -531,7 +531,7 @@
       <layer-tree-layer source="./data_icloud/geoBoundaries_Water.fgb" patch_size="-1,-1" name="geoBoundaries_Water — geoBoundaries_globalWater_3857" checked="Qt::Checked" legend_split_behavior="0" id="geoBoundaries_globalWater_3857_21a95aca_5efb_41d2_9fbf_25dca2452a29" providerKey="ogr" expanded="1" legend_exp="">
         <customproperties>
           <Option type="Map">
-            <Option name="expandedLegendNodes" type="invalid"/>
+            <Option name="expandedLegendNodes"/>
             <Option name="showFeatureCount" value="true" type="bool"/>
           </Option>
         </customproperties>
@@ -540,7 +540,7 @@
     <layer-tree-layer source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Ds%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D&amp;zmax=20&amp;zmin=0" patch_size="-1,-1" name="Google Satellite" checked="Qt::Checked" legend_split_behavior="0" id="Google_Satellite_01387890_7ab7_44cb_b95a_3c72c8b77d1a" providerKey="wms" expanded="1" legend_exp="">
       <customproperties>
         <Option type="Map">
-          <Option name="expandedLegendNodes" type="invalid"/>
+          <Option name="expandedLegendNodes"/>
         </Option>
       </customproperties>
     </layer-tree-layer>
@@ -691,10 +691,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>631895.47726085141766816</xmin>
-      <ymin>3470181.4308721637353301</ymin>
-      <xmax>644216.86774133669678122</xmax>
-      <ymax>3490315.4795374758541584</ymax>
+      <xmin>636815.41968660976272076</xmin>
+      <ymin>3480147.41867030132561922</ymin>
+      <xmax>643041.8707555994624272</xmax>
+      <ymax>3490321.89281214587390423</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -1132,6 +1132,18 @@
   </main-annotation-layer>
   <projectlayers>
     <maplayer simplifyDrawingTol="1" legendPlaceholderImage="" labelsEnabled="1" geometry="Polygon" autoRefreshTime="0" wkbType="MultiPolygon" symbologyReferenceScale="-1" type="vector" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" simplifyLocal="1" readOnly="0" minScale="100000000" refreshOnNotifyEnabled="0" simplifyMaxScale="1" simplifyAlgorithm="0" styleCategories="AllStyleCategories" maxScale="0" simplifyDrawingHints="1" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>-180</xmin>
+        <ymin>-90</ymin>
+        <xmax>180</xmax>
+        <ymax>83.63339233400000694</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-180</xmin>
+        <ymin>-90</ymin>
+        <xmax>180</xmax>
+        <ymax>83.63339233400000694</ymax>
+      </wgs84extent>
       <id>COUNTRIES_DISSOLVED_DE_ca93373a_dc1e_4800_a271_93d022f9c456</id>
       <datasource>./data_icloud/COUNTRIES_DISSOLVED_DE.gpkg|layername=COUNTRIES_DISSOLVED_DE</datasource>
       <keywordList>
@@ -24315,6 +24327,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"/>
     </maplayer>
     <maplayer simplifyDrawingTol="1" legendPlaceholderImage="" labelsEnabled="0" geometry="Polygon" autoRefreshTime="0" wkbType="MultiPolygon" symbologyReferenceScale="-1" type="vector" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" simplifyLocal="1" readOnly="0" minScale="100000000" refreshOnNotifyEnabled="0" simplifyMaxScale="1" simplifyAlgorithm="0" styleCategories="AllStyleCategories" maxScale="0" simplifyDrawingHints="1" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>-20037508.34279999881982803</xmin>
+        <ymin>-242528680.94369998574256897</ymin>
+        <xmax>20037508.34279999881982803</xmax>
+        <ymax>18428208.90949999913573265</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-179.99999999990342303</xmin>
+        <ymin>-90</ymin>
+        <xmax>179.99999999990342303</xmax>
+        <ymax>83.63339233402501804</ymax>
+      </wgs84extent>
       <id>geoBoundaries_globalWater_3857_21a95aca_5efb_41d2_9fbf_25dca2452a29</id>
       <datasource>./data_icloud/geoBoundaries_Water.fgb</datasource>
       <keywordList>
@@ -24831,6 +24855,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyDrawingTol="1" legendPlaceholderImage="" labelsEnabled="0" geometry="Polygon" autoRefreshTime="0" wkbType="MultiPolygon" symbologyReferenceScale="-1" type="vector" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" simplifyLocal="1" readOnly="0" minScale="100000000" refreshOnNotifyEnabled="0" simplifyMaxScale="1" simplifyAlgorithm="0" styleCategories="AllStyleCategories" maxScale="0" simplifyDrawingHints="1" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>616086.94731574796605855</xmin>
+        <ymin>3454836.91102381981909275</ymin>
+        <xmax>648583.29468406597152352</xmax>
+        <ymax>3495903.07642546016722918</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>34.21879117059854281</xmin>
+        <ymin>31.2182366529797477</ymin>
+        <xmax>34.56601274154702708</xmax>
+        <ymax>31.59236289442930001</ymax>
+      </wgs84extent>
       <id>hotosm_pse_buildings_polygons_gaza_destroyed_0ddffd71_f5cd_4fe0_aaa3_a81fbd9c8959</id>
       <datasource>./data_icloud/hotosm_pse_buildings_polygons_gaza_destroyed.gpkg|layername=hotosm_pse_buildings_polygons_gaza_destroyed</datasource>
       <keywordList>
@@ -28462,6 +28498,18 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer simplifyDrawingTol="1" legendPlaceholderImage="" labelsEnabled="1" geometry="Point" autoRefreshTime="0" wkbType="Point" symbologyReferenceScale="-1" type="vector" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled" simplifyLocal="1" readOnly="0" minScale="100000000" refreshOnNotifyEnabled="0" simplifyMaxScale="1" simplifyAlgorithm="0" styleCategories="AllStyleCategories" maxScale="0" simplifyDrawingHints="0" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>34.1107742000000016</xmin>
+        <ymin>31.21276860000000042</ymin>
+        <xmax>34.71867979999999676</xmax>
+        <ymax>31.66531910000000138</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>34.1107742000000016</xmin>
+        <ymin>31.21276860000000042</ymin>
+        <xmax>34.71867979999999676</xmax>
+        <ymax>31.66531910000000138</ymax>
+      </wgs84extent>
       <id>place_58445c39_0da9_4b51_b2f5_93d69fefce16</id>
       <datasource>./data_icloud/gaza_cities.gpkg|layername=place|subset="population" > 100000</datasource>
       <keywordList>
@@ -29521,20 +29569,20 @@ def my_form_open(dialog, layer, feature):
   </dataDefinedServerProperties>
   <visibility-presets>
     <visibility-preset has-checked-group-info="1" name="atlas" has-expanded-info="1">
-      <layer visible="1" id="Google_Satellite_01387890_7ab7_44cb_b95a_3c72c8b77d1a" style="default" expanded="1"/>
-      <expanded-legend-nodes id="Google_Satellite_01387890_7ab7_44cb_b95a_3c72c8b77d1a"/>
-      <layer visible="1" id="geoBoundaries_globalWater_3857_21a95aca_5efb_41d2_9fbf_25dca2452a29" style="default" expanded="1"/>
-      <expanded-legend-nodes id="geoBoundaries_globalWater_3857_21a95aca_5efb_41d2_9fbf_25dca2452a29"/>
-      <layer visible="1" id="place_58445c39_0da9_4b51_b2f5_93d69fefce16" style="default" expanded="1"/>
-      <expanded-legend-nodes id="place_58445c39_0da9_4b51_b2f5_93d69fefce16"/>
-      <layer visible="0" id="_099a1114_78b1_4248_af8e_152576d0d2b8" style="default" expanded="1"/>
-      <expanded-legend-nodes id="_099a1114_78b1_4248_af8e_152576d0d2b8"/>
       <layer visible="1" id="virtual_layer_7cf577a0_f24d_43aa_aeea_3722d184c52b" style="default" expanded="1"/>
       <expanded-legend-nodes id="virtual_layer_7cf577a0_f24d_43aa_aeea_3722d184c52b"/>
-      <layer visible="1" id="COUNTRIES_DISSOLVED_DE_ca93373a_dc1e_4800_a271_93d022f9c456" style="default" expanded="0"/>
-      <expanded-legend-nodes id="COUNTRIES_DISSOLVED_DE_ca93373a_dc1e_4800_a271_93d022f9c456"/>
+      <layer visible="1" id="place_58445c39_0da9_4b51_b2f5_93d69fefce16" style="default" expanded="1"/>
+      <expanded-legend-nodes id="place_58445c39_0da9_4b51_b2f5_93d69fefce16"/>
       <layer visible="1" id="hotosm_pse_buildings_polygons_gaza_destroyed_0ddffd71_f5cd_4fe0_aaa3_a81fbd9c8959" style="atlas" expanded="1"/>
       <expanded-legend-nodes id="hotosm_pse_buildings_polygons_gaza_destroyed_0ddffd71_f5cd_4fe0_aaa3_a81fbd9c8959"/>
+      <layer visible="0" id="_099a1114_78b1_4248_af8e_152576d0d2b8" style="default" expanded="1"/>
+      <expanded-legend-nodes id="_099a1114_78b1_4248_af8e_152576d0d2b8"/>
+      <layer visible="1" id="COUNTRIES_DISSOLVED_DE_ca93373a_dc1e_4800_a271_93d022f9c456" style="default" expanded="0"/>
+      <expanded-legend-nodes id="COUNTRIES_DISSOLVED_DE_ca93373a_dc1e_4800_a271_93d022f9c456"/>
+      <layer visible="1" id="geoBoundaries_globalWater_3857_21a95aca_5efb_41d2_9fbf_25dca2452a29" style="default" expanded="1"/>
+      <expanded-legend-nodes id="geoBoundaries_globalWater_3857_21a95aca_5efb_41d2_9fbf_25dca2452a29"/>
+      <layer visible="1" id="Google_Satellite_01387890_7ab7_44cb_b95a_3c72c8b77d1a" style="default" expanded="1"/>
+      <expanded-legend-nodes id="Google_Satellite_01387890_7ab7_44cb_b95a_3c72c8b77d1a"/>
       <checked-group-nodes>
         <checked-group-node id="destroyed buildings"/>
         <checked-group-node id="cities"/>
@@ -30148,7 +30196,7 @@ def my_form_open(dialog, layer, feature):
   <Sensors/>
   <ProjectViewSettings rotation="0" UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent ymin="3470181.4308721637353301" xmin="620693.55166545661631972" ymax="3490315.4795374758541584" xmax="655418.79333673149812967">
+    <DefaultViewExtent ymin="3480147.41867030132561922" xmin="633808.26745968661271036" ymax="3490321.89281214587390423" xmax="646049.02298252261243761">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>PROJCRS["WGS 84 / UTM zone 36N",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 36N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",33,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Between 30°E and 36°E, northern hemisphere between equator and 84°N, onshore and offshore. Belarus. Cyprus. Egypt. Ethiopia. Finland. Israel. Jordan. Kenya. Lebanon. Moldova. Norway. Russian Federation. Saudi Arabia. Sudan. Syria. Turkey. Uganda. Ukraine."],BBOX[0,30,84,36]],ID["EPSG",32636]]</wkt>
         <proj4>+proj=utm +zone=36 +datum=WGS84 +units=m +no_defs</proj4>

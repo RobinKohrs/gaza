@@ -1,0 +1,55 @@
+<style>
+    .container {
+        margin-top: 40px;
+        background: #fff;
+        padding: 24px 32px 32px 32px;
+        border-radius: 12px;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        max-width: 800px;
+    }
+    .legend {
+        display: flex;
+        gap: 32px;
+        margin-top: 24px;
+        font-size: 1.1em;
+    }
+    .legend-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .legend-color {
+        width: 22px;
+        height: 22px;
+        border-radius: 4px;
+        display: inline-block;
+    }
+    .destroyed {
+        background: #d32f2f;
+        border: 2px solid #b71c1c;
+    }
+    .intact {
+        background: #388e3c;
+        border: 2px solid #1b5e20;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-top: 16px;
+    }
+</style>
+<div class="container">
+    <h1>wien_zerstörte_gebäude</h1>
+    <img src="https://b.staticfiles.at/elm/static/2025-dateien/wien_zerstörte_gebäude.webp" alt="wien_zerstörte_gebäude">
+    <div class="legend">
+        <div class="legend-item">
+            <span class="legend-color destroyed"></span>
+            <span>Zerstörte Gebäude</span>
+        </div>
+        <div class="legend-item">
+            <span class="legend-color intact"></span>
+            <span>Intakte Gebäude</span>
+        </div>
+    </div>
+</div> 

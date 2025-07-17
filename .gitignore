@@ -89,3 +89,8 @@ target/
 logs/
 
 /.quarto/
+data_icloud/COUNTRIES_DISSOLVED_DE.gpkg
+data_icloud/vienna_buildings.gpkg
+data_raw/planet/mosaics/georef_overview_gaza_strip_20241112_2500-2506_rgb_flat_3m_6500px_rotated-40_modified.tif
+data_raw/planet/mosaics/overview_gaza_strip_20241112_2500-2506_rgb_flat_3m_6500px_rotated-40_modified.tif
+data_raw/unosat/cropland_damage/CE20231007PSE_UNOSAT_FAO_Cropland_DamageAssessment_GDB_March2025.zip
