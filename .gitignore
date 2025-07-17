@@ -8,12 +8,10 @@ unosat
 .Trashes
 ehthumbs.db
 Thumbs.db
-graphic_output
 data_raw
 *~
 # --- Common Data and Output Folders ---
 # data_output/
-.graphic_output/
 .temp/
 .cache/
 # --- R ---
