@@ -29,5 +29,5 @@ files <- paste0(
   return(list(path = x, caption = formatted_date))
 })
 
-html <- davR::html_create_image_swiper(files, overlay_path = "https://b.staticfiles.at/elm/static/2025-dateien/itv_overview_map.png?wwww")
+html <- davR::html_create_image_swiper(files, overlay_path = "https://b.staticfiles.at/elm/static/2025-dateien/itv_overview_map2.png?wwww")
 clipr::write_clip(html)

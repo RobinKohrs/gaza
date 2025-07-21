@@ -1,0 +1,78 @@
+<style>
+  .dj-container {
+    font-family: "STMatilda Info Variable", system-ui, sans-serif;
+  }
+  .dj-legend,
+  .dj-legend-item,
+  .dj-legend-color,
+  .dj-destroyed,
+  .dj-intact,
+  .dj-legend span,
+  .dj-legend-item span {
+    font-family: "STMatilda Info Variable", system-ui, sans-serif;
+  }
+  .dj-legend {
+    display: flex;
+    gap: 32px;
+    margin-top: 8px;
+  }
+  .dj-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .dj-legend-color {
+    width: 22px;
+    height: 22px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  .dj-destroyed {
+    background: #ff4500;
+  }
+  .dj-intact {
+    background: #8a8a8a;
+  }
+  .dj-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 8px;
+  }
+  .dj-annotation {
+    font-size: 0.95em;
+    color: #666;
+    margin-top: 8px;
+    font-family: inherit;
+  }
+  .dj-title h3 {
+    margin-bottom: 0.3em;
+  }
+</style>
+<div class="dj-container">
+  <div class="dj-title">
+    <h3>Wären in Wien 60% der Gebäude zerstört...</h3>
+  </div>
+  <span
+    >...wären die Bezirke 1 bis 20 sowie Teile des 23. Bezirks nicht mehr
+    da</span
+  >
+  <img
+    class="dj-img"
+    src="https://b.staticfiles.at/elm/static/2025-dateien/wien_zerst%C3%B6rte_geb%C3%A4ude.webp"
+    alt="Karte von Wien mit farblicher Darstellung zerstörter Gebäude bei einer hypothetischen Zerstörungsrate von 60 %. Die Bezirke 1 bis 20 sowie Teile des 23. Bezirks sind in Rot eingefärbt und symbolisieren die zerstörten Gebäude. Der Rest der Stadt ist in Weiß dargestellt. Die Donau und der Donaukanal sind in Blau eingezeichnet."
+  />
+  <div class="dj-legend">
+    <div class="dj-legend-item">
+      <span class="dj-legend-color dj-destroyed"></span>
+      <span>Theoretisch zerstörte Gebäude</span>
+    </div>
+    <div class="dj-legend-item">
+      <span class="dj-legend-color dj-intact"></span>
+      <span>Theoretisch nicht zerstörte Gebäude</span>
+    </div>
+  </div>
+  <div class="dj-annotation">
+    Daten: OpenStreetMap-Mitwirkende, eigene Darstellung
+  </div>
+</div>

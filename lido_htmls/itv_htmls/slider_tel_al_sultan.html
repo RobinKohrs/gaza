@@ -1,0 +1,327 @@
+<style>
+  .dj-image-slider-container {
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    cursor: default;
+    touch-action: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 100%;
+    max-width: 615px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+  }
+  .dj-image-slider-container * {
+    box-sizing: border-box;
+  }
+  .dj-image-slider-img-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .dj-image-slider-img-wrapper.dj-image-slider-left-wrapper {
+    z-index: 1;
+  }
+  .dj-image-slider-img-wrapper.dj-image-slider-right-wrapper {
+    z-index: 0;
+  }
+  .dj-image-slider-img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: block;
+    pointer-events: none;
+  }
+  .dj-image-slider-handle {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 3;
+    cursor: ew-resize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-50%);
+  }
+  .dj-image-slider-handle-grip {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    position: relative;
+    font-family: system-ui, -apple-system, sans-serif;
+    font-weight: bold;
+    color: #333333;
+    font-size: 16px;
+    line-height: 1;
+  }
+  .dj-image-slider-handle-grip::before {
+    content: "<>";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .dj-image-slider-handle-grip::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #333333;
+    background-color: #ffffff;
+  }
+  .dj-image-slider-label {
+    position: absolute;
+    top: 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    font-size: 0.9em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+  .dj-image-slider-label.dj-image-slider-label-left {
+    left: 10px;
+  }
+  .dj-image-slider-label.dj-image-slider-label-right {
+    right: 10px;
+  }
+  .dj-image-slider-label-top {
+    top: 10px;
+    bottom: auto !important;
+  }
+  .dj-image-slider-label-bottom {
+    bottom: 10px;
+    top: auto !important;
+  }
+  .dj-image-slider-label-hidden {
+    opacity: 0;
+  }
+  .dj-image-slider-container:hover .dj-image-slider-label-hidden {
+    opacity: 1;
+  }
+</style>
+<div
+  id="dj-image-slider-xl3046lfem48"
+  class="dj-image-slider-container"
+  role="slider"
+  aria-valuemin="0"
+  aria-valuemax="100"
+  aria-valuenow="50"
+  aria-label="Image comparison slider"
+  data-config='{"initialPos":50,"slideOnHover":true,"enableDrag":true}'
+>
+  <div class="dj-image-slider-img-wrapper dj-image-slider-right-wrapper">
+    <img
+      src="https://b.staticfiles.at/elm/static/2025-dateien/aoi-one_tel-as-sultan-rafah-gaza-stip_20250713_063930_ssc13_rgb_flat_50cm_1280px_geo.webp"
+      alt="Right image"
+      class="dj-image-slider-img dj-image-slider-right-img"
+      loading="lazy"
+      draggable="false"
+    />
+    <div
+      class="dj-image-slider-label dj-image-slider-label-top dj-image-slider-label-right"
+      style="
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+          sans-serif;
+        font-size: 0.9em;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 5px 10px;
+      "
+    >
+      13. Juli '25
+    </div>
+  </div>
+
+  <div
+    class="dj-image-slider-img-wrapper dj-image-slider-left-wrapper"
+    style="clip-path: inset(0 50% 0 0)"
+  >
+    <img
+      src="https://b.staticfiles.at/elm/static/2025-dateien/aoi-one_tel-as-sultan-rafah-gaza-stip_20250318_065316_ssc1_rgb_flat_50cm_1280px_geo.webp"
+      alt="Left image"
+      class="dj-image-slider-img dj-image-slider-left-img"
+      loading="lazy"
+      draggable="false"
+    />
+    <div
+      class="dj-image-slider-label dj-image-slider-label-top dj-image-slider-label-left"
+      style="
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+          sans-serif;
+        font-size: 0.9em;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 5px 10px;
+      "
+    >
+      18. März '25
+    </div>
+  </div>
+
+  <div class="dj-image-slider-handle" style="left: 50%">
+    <div class="dj-image-slider-handle-grip"></div>
+  </div>
+</div>
+<script id="djImageSliderScript_xl3046lfem48">
+  (function () {
+    if (typeof window.djImageSlidersInitialized === "undefined") {
+      window.djImageSlidersInitialized = new Set();
+    }
+
+    function initDjImageSlider(sliderId) {
+      if (window.djImageSlidersInitialized.has(sliderId)) {
+        return;
+      }
+
+      const slider = document.getElementById(sliderId);
+      if (!slider) {
+        console.warn("DJ Image slider not found: " + sliderId);
+        return;
+      }
+
+      const leftWrapper = slider.querySelector(".dj-image-slider-left-wrapper");
+      const rightImg = slider.querySelector(".dj-image-slider-right-img");
+      const handle = slider.querySelector(".dj-image-slider-handle");
+      const config = JSON.parse(slider.dataset.config || "{}");
+
+      // Set container height based on image height
+      function updateContainerHeight() {
+        if (rightImg.complete) {
+          const height = rightImg.offsetHeight;
+          slider.style.height = height + "px";
+          leftWrapper.style.height = height + "px";
+        }
+      }
+
+      // Update height when image loads
+      rightImg.addEventListener("load", updateContainerHeight);
+      // Also try immediately in case image is already loaded
+      updateContainerHeight();
+
+      let isDragging = false;
+      let isActiveHover = false;
+
+      function updateSliderPosition(clientX) {
+        const rect = slider.getBoundingClientRect();
+        let x = clientX - rect.left;
+        let percentage = (x / rect.width) * 100;
+        percentage = Math.max(0, Math.min(100, percentage));
+
+        leftWrapper.style.clipPath = `inset(0 ${100 - percentage}% 0 0)`;
+        handle.style.left = percentage + "%";
+      }
+
+      updateSliderPosition(
+        slider.getBoundingClientRect().left +
+          (slider.getBoundingClientRect().width * config.initialPos) / 100
+      );
+
+      function startInteraction(event) {
+        if (!config.enableDrag) return;
+        isDragging = true;
+        slider.style.cursor = "ew-resize";
+        const clientX = event.touches
+          ? event.touches[0].clientX
+          : event.clientX;
+        updateSliderPosition(clientX);
+        if (event.preventDefault && event.type === "touchstart") {
+          event.preventDefault();
+        }
+      }
+
+      slider.addEventListener("mousedown", startInteraction);
+      slider.addEventListener("touchstart", startInteraction, {
+        passive: false,
+      });
+
+      function moveInteraction(event) {
+        const clientX = event.touches
+          ? event.touches[0].clientX
+          : event.clientX;
+        if (isDragging && config.enableDrag) {
+          updateSliderPosition(clientX);
+        } else if (
+          isActiveHover &&
+          config.slideOnHover &&
+          !isDragging &&
+          event.type === "mousemove"
+        ) {
+          updateSliderPosition(clientX);
+        }
+      }
+      document.addEventListener("mousemove", moveInteraction);
+      document.addEventListener("touchmove", moveInteraction, {
+        passive: false,
+      });
+
+      function endInteraction() {
+        if (isDragging) {
+          isDragging = false;
+          slider.style.cursor = "default";
+        }
+      }
+      document.addEventListener("mouseup", endInteraction);
+      document.addEventListener("touchend", endInteraction);
+
+      if (config.slideOnHover) {
+        slider.addEventListener("mouseenter", function () {
+          isActiveHover = true;
+        });
+        slider.addEventListener("mouseleave", function () {
+          isActiveHover = false;
+        });
+        slider.addEventListener("mousemove", function (event) {
+          if (!isDragging && isActiveHover) {
+            updateSliderPosition(event.clientX);
+          }
+        });
+      }
+      window.djImageSlidersInitialized.add(sliderId);
+    }
+
+    if (typeof window.initializeAllDjImageSliders !== "function") {
+      window.initializeAllDjImageSliders = function () {
+        const sliders = document.querySelectorAll(".dj-image-slider-container");
+        sliders.forEach((slider) => {
+          if (slider.id && slider.dataset.config) {
+            initDjImageSlider(slider.id);
+          }
+        });
+      };
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener(
+        "DOMContentLoaded",
+        window.initializeAllDjImageSliders
+      );
+    } else {
+      window.initializeAllDjImageSliders();
+    }
+  })();
+</script>
