@@ -1,0 +1,90 @@
+<style>
+  .dj-legend-wrapper {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    max-width: 320px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .dj-map-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+    display: block;
+  }
+
+  .dj-legend-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #333;
+    text-align: center;
+  }
+
+  .dj-legend-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .dj-legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .dj-legend-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .dj-legend-color-box {
+    width: 18px;
+    height: 18px;
+    margin-right: 12px;
+    border: 1px solid rgba(0,0,0,0.2);
+    flex-shrink: 0;
+  }
+
+  .dj-legend-text {
+    color: #555;
+  }
+
+  /* Damage level colors based on humanitarian standards */
+  .dj-color-destroyed { background-color: #d7191c; }
+  .dj-color-severe { background-color: #fdae61; }
+  .dj-color-moderate { background-color: #ffffbf; }
+  .dj-color-possible { background-color: #a6d96a; }
+
+</style>
+
+<div class="dj-legend-wrapper">
+  <img src="UNOSAT_POINT_DAMAGE.webp" alt="UNOSAT Point Damage Assessment - Gaza Strip" class="dj-map-image">
+  
+  <div class="dj-legend">
+    <div class="dj-legend-title">Damage Assessment Key</div>
+    <ul class="dj-legend-items">
+      <li class="dj-legend-item">
+        <span class="dj-legend-color-box dj-color-destroyed"></span>
+        <span class="dj-legend-text">Destroyed</span>
+      </li>
+      <li class="dj-legend-item">
+        <span class="dj-legend-color-box dj-color-severe"></span>
+        <span class="dj-legend-text">Severe Damage</span>
+      </li>
+      <li class="dj-legend-item">
+        <span class="dj-legend-color-box dj-color-moderate"></span>
+        <span class="dj-legend-text">Moderate Damage</span>
+      </li>
+       <li class="dj-legend-item">
+        <span class="dj-legend-color-box dj-color-possible"></span>
+        <span class="dj-legend-text">Possible Damage</span>
+      </li>
+    </ul>
+  </div>
+</div> 

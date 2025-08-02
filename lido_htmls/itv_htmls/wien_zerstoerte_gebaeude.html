@@ -1,25 +1,19 @@
 <style>
   .dj-container {
     font-family: "STMatilda Info Variable", system-ui, sans-serif;
+    max-width: 615px;
   }
-  .dj-legend,
-  .dj-legend-item,
-  .dj-legend-color,
-  .dj-destroyed,
-  .dj-intact,
-  .dj-legend span,
-  .dj-legend-item span {
-    font-family: "STMatilda Info Variable", system-ui, sans-serif;
-  }
-  .dj-legend {
+  .dj-container .dj-legend {
     display: flex;
-    gap: 32px;
+    flex-wrap: wrap;
+    gap: 5px;
     margin-top: 8px;
+    font-size: 16px;
   }
-  .dj-legend-item {
+  .dj-container .dj-legend-item {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 4px;
   }
   .dj-legend-color {
     width: 22px;
@@ -40,12 +34,15 @@
     margin-top: 8px;
   }
   .dj-annotation {
-    font-size: 0.95em;
+    font-size: 12px;
     color: #666;
     margin-top: 8px;
     font-family: inherit;
+    line-height: 1.2;
   }
   .dj-title h3 {
+    font-size: 24px;
+    font-family: inherit;
     margin-bottom: 0.3em;
   }
 </style>
@@ -53,10 +50,7 @@
   <div class="dj-title">
     <h3>Wären in Wien 60% der Gebäude zerstört...</h3>
   </div>
-  <span
-    >...wären die Bezirke 1 bis 20 sowie Teile des 23. Bezirks nicht mehr
-    da</span
-  >
+  <span>...gäbe es die Bezirke 1 bis 20 sowie Teile des 23. Bezirks nicht mehr.</span>
   <img
     class="dj-img"
     src="https://b.staticfiles.at/elm/static/2025-dateien/wien_zerst%C3%B6rte_geb%C3%A4ude.webp"
@@ -65,14 +59,14 @@
   <div class="dj-legend">
     <div class="dj-legend-item">
       <span class="dj-legend-color dj-destroyed"></span>
-      <span>Theoretisch zerstörte Gebäude</span>
+      <span>Hypothetisch zerstörte Gebäude</span>
     </div>
     <div class="dj-legend-item">
       <span class="dj-legend-color dj-intact"></span>
-      <span>Theoretisch nicht zerstörte Gebäude</span>
+      <span>Hypothetisch intakte Gebäude</span>
     </div>
   </div>
   <div class="dj-annotation">
-    Daten: OpenStreetMap-Mitwirkende, eigene Darstellung
+    <b>Gebäudedaten:</b> OpenStreetMap-Beitragende, eigene Darstellung
   </div>
 </div>
